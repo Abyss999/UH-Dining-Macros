@@ -3,10 +3,15 @@ today = date.today()
 
 # min-w-full = station tables 
 
-class MoodyMenuScraper():
+class UHMenuScraper():
     def __init__(self, menu = "lunch"):
         self.menu = menu
         self.search = ["all", "P", "V", "VG", "CF"] # all, protein, vegitarian, vegan, climate friendly
+
+        self.diningHall = {
+            "moody": "moody-towers-dining-commons",
+            "cougar": "24-7-cougar-woods-dining-commons",
+        }
 
         self.nutNameMap = {
             "Protein (g)": "protein",
@@ -18,11 +23,11 @@ class MoodyMenuScraper():
         }
 
 
-    def websiteScrape(self, playwright: Playwright, menu_type = "lunch"):
+    def websiteScrape(self, playwright: Playwright, menu_type = "lunch", dining_hall = "moody"):
         chromium = playwright.chromium
         browser = chromium.launch(headless=False)
         page = browser.new_page()
-        page.goto(f"https://new.dineoncampus.com/uh/whats-on-the-menu/moody-towers-dining-commons/{today}/{menu_type}")
+        page.goto(f"https://new.dineoncampus.com/uh/whats-on-the-menu/{self.diningHall[dining_hall]}/{today}/{menu_type}")
         page.wait_for_selector(".min-w-full") # wait for each station to load 
 
         # foods  = page.query_selector_all(".text-lg.font-semibold.pl-2") # text-lg font-semibold pl-2
@@ -89,11 +94,13 @@ class MoodyMenuScraper():
         browser.close()
         return sortArr
 
-    def get_today_menu(self, find_date = today, menu_type = "lunch", refresh_cache = False):
+    def get_today_menu(self, find_date = today, menu_type = "lunch", refresh_cache = False, dining_hall = "moody"):
         find_date = date.today().isoformat()
-        cached_file = f"menu/macros_{menu_type}_cache.csv"
+        cached_file = f"menu/{self.diningHall[dining_hall]}_{menu_type}_cache.csv"
         if menu_type not in ["lunch", "dinner", "breakfast"]:
-            raise ValueError("Invalid menu type. Choose from 'lunch', 'dinner', or 'breakfast'.")
+            raise ValueError("Invalid menu type. Choose from 'lunch', 'dinner', or 'breakfast'")
+        if dining_hall not in self.diningHall.keys():
+            raise ValueError("Invalid dining hall. Choose from 'moody' or 'cougar'")
 
         if os.path.exists(cached_file) and os.path.getsize(cached_file) > 0: # file exist + check for refresh
             if not refresh_cache:
@@ -109,7 +116,7 @@ class MoodyMenuScraper():
         print('Scraping...')
 
         with sync_playwright() as playwright:
-            data = self.websiteScrape(playwright, menu_type) # if not cached, scrape 
+            data = self.websiteScrape(playwright, menu_type, dining_hall=dining_hall) # if not cached, scrape 
 
         for row in data:
             row["date"] = find_date
@@ -150,5 +157,6 @@ class MoodyMenuScraper():
 
 __init__ = "__main__"
 if __name__ == "__main__":
-    menu = "dinner"
-    MoodyMenuScraper(menu=menu).get_today_menu(menu_type=menu, refresh_cache=False)
+    menu = "lunch"  # breakfast, lunch, dinner
+    dining_hall = "cougar" # moody, cougar
+    UHMenuScraper(menu=menu).get_today_menu(menu_type=menu, refresh_cache=False, dining_hall=dining_hall)

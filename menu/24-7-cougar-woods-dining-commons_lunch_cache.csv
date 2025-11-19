@@ -1,0 +1,55 @@
+name,serving_size,calories,protein,carbs,fats,sugar,protein_per_calorie,calories_per_protein,date
+"Cucumber, Tomato, Parsley Salad",1/2 cup,30,0,4,0,2,0.0,0.0,2025-11-19
+grilled jalapenos,2 ounce,30,0,5,1,3,0.0,0.0,2025-11-19
+Chopped Tomatoes,2 ounce,10,0,2,0,1,0.0,0.0,2025-11-19
+Limes,1 wedge,0,0,0,0,0,0.0,0.0,2025-11-19
+Fresh Cilantro,1 tbsp,0,0,0,0,0,0.0,0.0,2025-11-19
+Pico de Gallo,2 oz portion,15,0,3,0,2,0.0,0.0,2025-11-19
+Salsa Roja,2 floz,15,0,3,0,2,0.0,0.0,2025-11-19
+Diced Onions,2 ounce,25,0,5,0,2,0.0,0.0,2025-11-19
+Sliced Tomatoes,2 ounce,10,0,2,0,1,0.0,0.0,2025-11-19
+Lettuce Leaf,2 ounce,10,0,2,0,0,0.0,0.0,2025-11-19
+Dill Pickle Slices,4 each,0,0,0,0,0,0.0,0.0,2025-11-19
+Sliced Jalapeno Pepper,2 ounce,15,0,4,0,2,0.0,0.0,2025-11-19
+Sauteed Zucchini,1/2 cup,40,0,2,0,2,0.0,0.0,2025-11-19
+"Crackers, Saltine, 2 CT, Zesta",1 each,25,0,5,0,0,0.0,0.0,2025-11-19
+Roasted Carrots,1/2 cup,80,1,12,0,6,0.013,80.0,2025-11-19
+Moroccan Spiced Eggplant and Tomatoes,4 oz portion,80,1,7,6,4,0.013,80.0,2025-11-19
+Cucumber Mint Yogurt Sauce,2 ounce,15,1,3,0,0,0.067,15.0,2025-11-19
+Shoestring French Fries,3 ounce,200,1,20,11,0,0.005,200.0,2025-11-19
+Vegan Chocolate Chip Cookies,1 each,130,1,15,8,7,0.008,130.0,2025-11-19
+Sugar Cookie,1 each,110,1,15,5,7,0.009,110.0,2025-11-19
+Okra and Tomatoes,1/2 cup,50,2,9,0,4,0.04,25.0,2025-11-19
+White Rice,1/2 cup,120,2,23,0,0,0.017,60.0,2025-11-19
+Garlic Toast,1 slice,80,2,11,3,0,0.025,40.0,2025-11-19
+Sour Cream Sauce,2 ounce,90,2,3,8,2,0.022,45.0,2025-11-19
+Funfetti Cupcake Vanilla Frosting,1 each,310,2,52,11,37,0.006,155.0,2025-11-19
+Chocolate Iced Brownies,1 each,320,2,52,11,42,0.006,160.0,2025-11-19
+Roasted Sweet Potato Salad,1/2 cup,110,2,18,0,0,0.018,55.0,2025-11-19
+Chicken Noodle Soup,4 floz,40,2,5,0,1,0.05,20.0,2025-11-19
+Tomato Basil Bisque,4 floz,80,2,10,0,5,0.025,40.0,2025-11-19
+Grilled Asparagus,5 each,60,3,6,4,3,0.05,20.0,2025-11-19
+Garlic Rice,4 ounce,160,3,27,4,0,0.019,53.333,2025-11-19
+White Pita Bread,1 half,80,3,16,0,0,0.037,26.667,2025-11-19
+Roasted Corn and Peppers,4 ounce,100,3,18,3,4,0.03,33.333,2025-11-19
+Pumpkin Bread,1 slice,250,3,40,9,20,0.012,83.333,2025-11-19
+Apple Farro Salad,1/2 cup,90,3,16,2,2,0.033,30.0,2025-11-19
+Dinner Roll,1 each,150,4,29,2,0,0.027,37.5,2025-11-19
+Dried Oregano,2 ounce,180,4,43,0,0,0.022,45.0,2025-11-19
+White Hamburger Bun,1 each,150,4,28,2,4,0.027,37.5,2025-11-19
+Caribbean Chicken Soup,1 ladle-6oz,70,5,10,0,0,0.071,14.0,2025-11-19
+Crushed Red Pepper,2 ounce,180,7,32,10,6,0.039,25.714,2025-11-19
+Cheese Pizza,1 slice,200,8,29,5,2,0.04,25.0,2025-11-19
+Cajun Lentil Stew,7 oz portion,170,9,24,0,7,0.053,18.889,2025-11-19
+Chickpea Falafel,4 oz portion,210,9,29,7,0,0.043,23.333,2025-11-19
+Pepperoni Pizza,1 slice,210,9,29,7,0,0.043,23.333,2025-11-19
+Smoked Sausage,1 each,290,9,2,28,0,0.031,32.222,2025-11-19
+Buffalo Chicken Macaroni & Cheese,4 ounce,200,11,20,9,2,0.055,18.182,2025-11-19
+Chicken Salad,1/3 cup,100,13,0,0,0,0.13,7.692,2025-11-19
+Roasted Vegetable Pizza,1 serving(s),320,14,51,7,4,0.044,22.857,2025-11-19
+Cajun Chicken Penne,4 oz portion,330,15,39,12,1,0.045,22.0,2025-11-19
+Grated Parmesan Cheese,2 ounce,240,16,8,16,0,0.067,15.0,2025-11-19
+Chicken Tender,4 oz meat,250,17,15,13,0,0.068,14.706,2025-11-19
+Black Bean Burger,1 sandwich,360,22,60,8,6,0.061,16.364,2025-11-19
+Pork Souvlaki,4 ounce,230,29,1,11,0,0.126,7.931,2025-11-19
+MeatlovePizza,1 slice,620,31,72,23,0,0.05,20.0,2025-11-19

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual env
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Local cache/output
+menu/
+*.csv
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/

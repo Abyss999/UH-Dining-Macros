@@ -1,0 +1,26 @@
+/* Active tab underline (Streamlit/BaseWeb) */
+[data-baseweb="tab-highlight"] {
+  background-color: #F97316 !important;
+}
+
+/* Optional: remove any extra underline you added before */
+button[data-baseweb="tab"][aria-selected="true"] {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Default tab text */
+button[data-baseweb="tab"] p {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Hover tab text (orange) */
+button[data-baseweb="tab"]:hover p {
+  color: #F97316 !important;
+}
+
+/* Active tab text (orange) */
+button[data-baseweb="tab"][aria-selected="true"] p {
+  color: #F97316 !important;
+  font-weight: 700 !important;
+}

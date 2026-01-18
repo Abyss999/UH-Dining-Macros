@@ -139,7 +139,7 @@ class UHMenuScraper:
         self.macro_results(data)
 
         if result_format == "pd":
-            return pd.DataFrame(data)
+            return pd.DataFrame(data).drop(columns=["date"], errors='ignore')
 
         return data
 

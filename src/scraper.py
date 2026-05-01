@@ -14,9 +14,187 @@ class UHMenuScraper:
         # repository root (project root is one level up from this src file)
         self.repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-        self.diningHall = {
-            "moody": "moody-towers-dining-commons",
-            "cougar": "24-7-cougar-woods-dining-commons",
+        self.schools = {
+            "UH": {
+                "name": "University of Houston",
+                "domain": "new.dineoncampus.com",
+                "slug": "uh",
+                "halls": {
+                    "moody": "moody-towers-dining-commons",
+                    "cougar": "24-7-cougar-woods-dining-commons",
+                },
+            },
+            "SFA": {
+                "name": "Stephen F. Austin State University",
+                "domain": "dineoncampus.com",
+                "slug": "sfa",
+                "halls": {
+                    "1923": "food-hall-1923",
+                },
+            },
+            "ACU": {
+                "name": "Abilene Christian University",
+                "domain": "dineoncampus.com",
+                "slug": "acudining",
+                "halls": {},
+                "disabled": True, # no dining hall pages to scrape, only menus with no nutrition info
+            },
+            "ASU": {
+                "name": "Angelo State University",
+                "domain": "dineoncampus.com",
+                "slug": "angelo",
+                "halls": {},
+                "disabled": True, # no dining hall pages to scrape, only menus with no nutrition info
+            },
+            "BAYLOR": {
+                "name": "Baylor University",
+                "domain": "dineoncampus.com",
+                "slug": "baylor",
+                "halls": {
+                    "penland-crossroads-dining-hall": "penland-crossroads-dining-hall",
+                    "1845-at-memorial": "1845-at-memorial",
+                    "east-village-dining-commons": "east-village-dining-commons",
+                },
+            },
+            "LU": {
+                "name": "Lamar University",
+                "domain": "dineoncampus.com",
+                "slug": "bigred",
+                "halls": {
+                    "brooks-shivers-dining-hall": "brooks-shivers-dining-hall",
+                    "brooks-shivers-bbq": "brooks-shivers-bbq",
+                },
+            },
+            "MSU": {
+                "name": "Midwestern State University",
+                "domain": "dineoncampus.com",
+                "slug": "midwesternstate",
+                "halls": {
+                    "mesquite-dining-hall": "mesquite-dining-hall",
+                },
+            },
+            "OLLU": {
+                "name": "Our Lady of the Lake University",
+                "domain": "dineoncampus.com",
+                "slug": "ollu",
+                "halls": {
+                    "crave": "crave"
+                },
+            },
+            "SEU": {
+                "name": "St. Edward's University",
+                "domain": "dineoncampus.com",
+                "slug": "stedwards",
+                "halls": {
+                    "stedwards": "stedwards",
+                },
+            },
+            "TAMU": {
+                "name": "Texas A&M University",
+                "domain": "dineoncampus.com",
+                "slug": "tamu",
+                "halls": {
+                    "the-commons-dining-hall-south-campus": "the-commons-dining-hall-south-campus",
+                    "sbisa-dining-hall-north-campus": "sbisa-dining-hall-north-campus",
+                    "duncan-dining-hall-south-campus-quad": "duncan-dining-hall-south-campus-quad",
+                    "copperhead-jack-s-west-campus-food-hall": "copperhead-jack-s-west-campus-food-hall",
+                    "shake-smart-rec-center": "shake-smart-rec-center",
+                    },
+            },
+            "TAMUG": {
+                "name": "Texas A&M Galveston",
+                "domain": "dineoncampus.com",
+                "slug": "tamug",
+                "halls": {},
+                "disabled": True, # no dining hall pages to scrape, only menus with no nutrition info
+            },
+            "TAMUSA": {
+                "name": "Texas A&M San Antonio",
+                "domain": "dineoncampus.com",
+                "slug": "tamusa",
+                "halls": {
+                    "cab-dining-hall": "cab-dining-hall",
+                },
+            },
+            "TAMUCC": {
+                "name": "Texas A&M University - Corpus Christi",
+                "domain": "dineoncampus.com",
+                "slug": "islanderdining",
+                "halls": {
+                    "islander-dining-hall": "islander-dining-hall",
+                    "late-night-grill-patio": "late-night-grill-patio",
+                },
+            },
+            "TAMUT": {
+                "name": "Texas A&M Texarkana",
+                "domain": "dineoncampus.com",
+                "slug": "tamut",
+                "halls": {"the-food-hall": "the-food-hall"},
+            },
+            "TAMUV": {
+                "name": "Texas A&M University Victoria",
+                "domain": "dineoncampus.com",
+                "slug": "tamuv",
+                "halls": {"jaguar-dining-hall": "jaguar-dining-hall"},
+            },
+            "TSU": {
+                "name": "Texas Southern University",
+                "domain": "dineoncampus.com",
+                "slug": "tsu",
+                "halls": {
+                    "sterling-dining-hall": "sterling-dining-hall",
+                },
+            },
+            "TXST": {
+                "name": "Texas State University",
+                "domain": "dineoncampus.com",
+                "slug": "txstate",
+                "halls": {
+                    "the-den-express-dining-hall": "the-den-express-dining-hall",
+                    "commons-dining-hall": "commons-dining-hall",
+                    "harris-dining-hall": "harris-dining-hall",
+                },
+            },
+            "UHCL": {
+                "name": "University of Houston-Clear Lake",
+                "domain": "dineoncampus.com",
+                "slug": "uhcl",
+                "halls": {},
+                "disabled": True, # no dining hall pages to scrape, only menus with no nutrition info
+            },
+            "TRINITY": {
+                "name": "Trinity University",
+                "domain": "dineoncampus.com",
+                "slug": "trinity",
+                "halls": {"mather-hall": "mather-hall"},
+            },
+            "UTRGV": {
+                "name": "The University of Texas Rio Grande Valley",
+                "domain": "dineoncampus.com",
+                "slug": "utrgv",
+                "halls": {"mather-hall": "mather-hall"},
+            },
+            "UTA": {
+                "name": "The University of Texas at Arlington",
+                "domain": "dineoncampus.com",
+                "slug": "utarlington",
+                "halls": {},
+                "disabled": True, # no dining hall pages to scrape, only menus with no nutrition info
+            },
+            "UTD": {
+                "name": "The University of Texas at Dallas",
+                "domain": "dineoncampus.com",
+                "slug": "utarlington",
+                "halls": {},
+                "disabled": True, # no dining hall pages to scrape, only menus with no nutrition info
+            },
+            "UTPB": {
+                "name": "University of Texas of the Permian Basin",
+                "domain": "dineoncampus.com",
+                "slug": "utpb",
+                "halls": {},
+                "disabled": True, # no dining hall pages to scrape, only menus with no nutrition info
+            },
         }
 
         self.nutNameMap = {
@@ -28,21 +206,52 @@ class UHMenuScraper:
             "Serving Size": "serving_size",
         }
 
-        self.school = {
-            "UH": "uh",
-            "SFA": "sfa",
-            "tamu": "tamu",
-        }
-
         self.search = ["all", "P", "V", "VG", "CF"] # all, protein, vegitarian, vegan, climate friendly
 
+    def discover_halls(self, school_key: str) -> dict:
+        """Navigate to a school's DineOnCampus home page and extract available dining hall slugs.
+        Returns {short_key: hall_slug} and updates self.schools[school_key]['halls'] in place."""
+        if school_key not in self.schools:
+            raise ValueError(f"Unknown school: {school_key}")
+        cfg = self.schools[school_key]
+        halls = {}
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=False)
+            page = browser.new_page()
+            page.goto(f"https://{cfg['domain']}/{cfg['slug']}/")
+            page.wait_for_load_state("networkidle")
+            links = page.evaluate("""
+                () => Array.from(document.querySelectorAll('a[href]'))
+                    .map(a => ({href: a.getAttribute('href'), text: a.textContent.trim()}))
+                    .filter(a => a.href && a.href.includes('/whats-on-the-menu/'))
+            """)
+            seen_slugs = set()
+            for link in links:
+                m = re.search(r'/whats-on-the-menu/([^/?#]+)', link['href'])
+                if m:
+                    hall_slug = m.group(1)
+                    if hall_slug in seen_slugs:
+                        continue
+                    seen_slugs.add(hall_slug)
+                    short_key = hall_slug.split('-')[0]
+                    # ensure uniqueness if two halls share the same first word
+                    base = short_key
+                    i = 2
+                    while short_key in halls:
+                        short_key = f"{base}{i}"
+                        i += 1
+                    halls[short_key] = hall_slug
+                    print(f"  [{school_key}] {short_key}: {hall_slug}  (from '{link['text']}')")
+            browser.close()
+        self.schools[school_key]["halls"] = halls
+        return halls
 
-
-    def websiteScrape(self, playwright: Playwright, menu_type = "lunch", dining_hall = "moody", school = "UH"):
+    def websiteScrape(self, playwright: Playwright, menu_type="lunch", dining_hall="moody", school="UH"):
+        cfg = self.schools[school]
         chromium = playwright.chromium
         browser = chromium.launch(headless=False)
         page = browser.new_page()
-        page.goto(f"https://new.dineoncampus.com/{self.school[school]}/whats-on-the-menu/{self.diningHall[dining_hall]}/{today}/{menu_type}")
+        page.goto(f"https://{cfg['domain']}/{cfg['slug']}/whats-on-the-menu/{cfg['halls'][dining_hall]}/{today}/{menu_type}")
         page.wait_for_selector(".min-w-full") # wait for each station to load 
 
         # foods  = page.query_selector_all(".text-lg.font-semibold.pl-2") # text-lg font-semibold pl-2
@@ -119,23 +328,28 @@ class UHMenuScraper:
         browser.close()
         return sortArr
 
-    def get_today_menu(self, find_date = today, menu_type = "lunch", refresh_cache = False, dining_hall = "moody", result_format = "csv"):
+    def get_today_menu(self, find_date=today, menu_type="lunch", refresh_cache=False, dining_hall="moody", school="UH", result_format="csv"):
         find_date = date.today().isoformat()
         menu_dir = os.path.join(self.repo_root, "menu")
         os.makedirs(menu_dir, exist_ok=True)
-        cached_file = os.path.join(menu_dir, f"{self.diningHall[dining_hall]}_{menu_type}_cache.csv")
-        if menu_type not in ["lunch", "dinner", "breakfast"]:
+
+        if school not in self.schools:
+            raise ValueError(f"Invalid school '{school}'. Choose from: {list(self.schools.keys())}")
+        if menu_type not in ["lunch", "dinner", "breakfast", "everyday"]:
             raise ValueError("Invalid menu type. Choose from 'lunch', 'dinner', or 'breakfast'")
-        if dining_hall not in self.diningHall.keys():
-            raise ValueError("Invalid dining hall. Choose from 'moody' or 'cougar'")
+        if dining_hall not in self.schools[school]["halls"]:
+            raise ValueError(f"Invalid dining hall '{dining_hall}' for {school}. Choose from: {list(self.schools[school]['halls'].keys())}")
 
-        if os.path.exists(cached_file) and os.path.getsize(cached_file) > 0: # file exist + check for refresh
+        school_slug = self.schools[school]["slug"]
+        hall_slug = self.schools[school]["halls"][dining_hall]
+        cached_file = os.path.join(menu_dir, f"{school_slug}_{hall_slug}_{menu_type}_cache.csv")
+
+        if os.path.exists(cached_file) and os.path.getsize(cached_file) > 0:
             if not refresh_cache:
-                df = pd.read_csv(cached_file) # reads the cache csv
+                df = pd.read_csv(cached_file)
                 df["date"] = df["date"].astype(str)
-
-                rows = df[df["date"] == find_date] # finds today cache 
-                if not rows.empty: # if results 
+                rows = df[df["date"] == find_date]
+                if not rows.empty:
                     data = rows.drop(columns=["date"]).to_dict(orient="records")
                     self.macro_results(data)
                     return data
@@ -143,14 +357,13 @@ class UHMenuScraper:
         print('Scraping...')
 
         with sync_playwright() as playwright:
-            data = self.websiteScrape(playwright, menu_type, dining_hall=dining_hall) # if not cached, scrape 
+            data = self.websiteScrape(playwright, menu_type, dining_hall=dining_hall, school=school)
 
         for row in data:
             row["date"] = find_date
 
-        macros_file = os.path.join(menu_dir, f"macros_{menu_type}_cache.csv")
-        if os.path.exists(macros_file):
-            df_old = pd.read_csv(macros_file)
+        if os.path.exists(cached_file):
+            df_old = pd.read_csv(cached_file)
             df_new = pd.concat([df_old, pd.DataFrame(data)], ignore_index=True)
         else:
             df_new = pd.DataFrame(data)
@@ -195,11 +408,27 @@ class UHMenuScraper:
 
 __init__ = "__main__"
 if __name__ == "__main__":
-    menu = "dinner"  # breakfast, lunch, dinner
-    dining_hall = "moody" # moody, cougar
-    UHMenuScraper(menu=menu).get_today_menu(
-        menu_type=menu, 
-        refresh_cache=True, 
-        dining_hall=dining_hall,
-        # school="UH"
-    )
+    import sys
+    scraper = UHMenuScraper()
+
+    if len(sys.argv) > 1 and sys.argv[1] == "discover":
+        # Discover halls for all schools that have none configured yet.
+        # Run: python3 src/scraper.py discover
+        for key, cfg in scraper.schools.items():
+            if not cfg["halls"]:
+                print(f"\nDiscovering halls for {key} ({cfg['name']})...")
+                try:
+                    halls = scraper.discover_halls(key)
+                    print(f"  → {halls}")
+                except Exception as e:
+                    print(f"  ✗ Failed: {e}")
+    else:
+        menu = "lunch"
+        dining_hall = "moody"
+        school = "UH"
+        scraper.get_today_menu(
+            menu_type=menu,
+            refresh_cache=True,
+            dining_hall=dining_hall,
+            school=school,
+        )

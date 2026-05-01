@@ -84,14 +84,16 @@ UH-DINING-MACROS/
 ### Scraping (`scraper.py`)
 - Uses Playwright to navigate DineOnCampus pages
 - Extracts nutritional data from interactive menu modals
+- Calories and serving size are parsed from the popup's full text (they use a different HTML structure than other nutrients)
+- Nutrient values with `+` suffixes or decimals (e.g. `4+ g`, `3.5 g`) are handled via regex extraction
 - Calculates protein-to-calorie ratios for easy comparison
 - Handles multiple dining halls and meal periods
 
 ### Caching
 - Scraped data is saved to `menu/` directory as CSV files
-- File format: `<dining-hall>_<meal>_<date>.csv`
+- File format: `{dining_hall}_{meal_type}_cache.csv`
+- Multiple dates accumulate in one file; today's rows are filtered on read
 - Cached data is reused to minimize scraping requests
-- Data includes date stamps for freshness tracking
 
 ### Web Interface (`main.py`)
 - Built with Streamlit for responsive UI
@@ -109,9 +111,9 @@ To modify the scraper or add new dining halls:
 
 ## Notes
 
-- The scraper respects DineOnCampus's structure and uses delays to avoid overwhelming servers
-- Cache files are organized by date to track menu changes over time
-- Playwright runs in headless mode for efficiency
+- The scraper respects DineOnCampus's structure and navigates menus one item at a time
+- Cache files accumulate dates over time so previously scraped days are never re-fetched
+- Playwright currently runs with a visible browser window (`headless=False` in `src/scraper.py`)
 
 ## Troubleshooting
 

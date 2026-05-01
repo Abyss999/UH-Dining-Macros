@@ -1,140 +1,120 @@
 name,serving_size,calories,protein,carbs,fats,sugar,protein_per_calorie,calories_per_protein,date
-Roasted Yellow Squash,1/2 cup,40,0,4,0,3,0.0,0.0,2025-11-19
-Thai Turkey Bowl,1 plate,0,0,0,0,0,0.0,0.0,2025-11-19
-Mango Chow,2 ounce,25,0,7,0,5,0.0,0.0,2025-11-19
-Thai Basil Vinaigrette,2 floz,200,0,7,19,6,0.0,0.0,2025-11-19
-Chopped Onion,1 tbsp,0,0,0,0,0,0.0,0.0,2025-11-19
-Chopped Cilantro,1 tsp,0,0,0,0,0,0.0,0.0,2025-11-19
-Tamarind Chutney,2 ounce,140,0,34,0,30,0.0,0.0,2025-11-19
-Julienne Yellow Onions,1/4 cup,10,0,3,0,1,0.0,0.0,2025-11-19
-Sliced Mushrooms,1/4 cup,0,0,0,0,0,0.0,0.0,2025-11-19
-Sliced Green Bell Pepper,1/4 cup,0,0,1,0,0,0.0,0.0,2025-11-19
-Shredded Carrots,1/4 cup,10,0,3,0,1,0.0,0.0,2025-11-19
-Baby Spinach,1/4 cup,0,0,0,0,0,0.0,0.0,2025-11-19
-Fresh Thai Basil,1 tbsp,0,0,0,0,0,0.0,0.0,2025-11-19
-Chopped Green Onions,1 tbsp,0,0,0,0,0,0.0,0.0,2025-11-19
-Grated Ginger Root,1 tsp,0,0,0,0,0,0.0,0.0,2025-11-19
-Fresh Chopped Garlic,1 tsp,0,0,0,0,0,0.0,0.0,2025-11-19
-General Tso's Sauce,1 floz,60,0,16,0,14,0.0,0.0,2025-11-19
-Sesame Seed Mix,1/2 tsp,10,0,0,1,0,0.0,0.0,2025-11-19
-Chow Mein Noodles,1 tbsp,15,0,2,0,0,0.0,0.0,2025-11-19
-Crushed Red Pepper,1/2 tsp,0,0,0,0,0,0.0,0.0,2025-11-19
-Grilled Zucchini,1/4 cup,15,0,2,1,1,0.0,0.0,2025-11-19
-Lettuce Leaf,1 each,0,0,0,0,0,0.0,0.0,2025-11-19
-Sliced Tomatoes,1 slice,0,0,0,0,0,0.0,0.0,2025-11-19
-Sliced Red Onion,1/4 cup,10,0,3,0,1,0.0,0.0,2025-11-19
-Dill Pickle Slices,4 each,0,0,0,0,0,0.0,0.0,2025-11-19
-Dill Pickle Slices,2 each,0,0,0,0,0,0.0,0.0,2025-11-19
-Lettuce Leaf,1 each,0,0,0,0,0,0.0,0.0,2025-11-19
-Sliced Tomatoes,2 slice,0,0,1,0,0,0.0,0.0,2025-11-19
-Sliced Red Onion,1 slice,5,0,1,0,0,0.0,0.0,2025-11-19
-Sliced Banana Peppers,1 ounce,0,0,0,0,0,0.0,0.0,2025-11-19
-Sliced Cucumber,1/4 cup,0,0,0,0,0,0.0,0.0,2025-11-19
-Sliced Green Bell Pepper,1/4 cup,0,0,1,0,0,0.0,0.0,2025-11-19
-Chipotle Mayo,1 tbsp,60,0,2,6,0,0.0,0.0,2025-11-19
-Pesto Mayo,1 oz portion,180,0,0,20,0,0.0,0.0,2025-11-19
-Horseradish Mayo,2 tbsp,110,0,3,11,0,0.0,0.0,2025-11-19
-Diced Onions,1/4 cup,15,0,4,0,2,0.0,0.0,2025-11-19
-Diced Tomatoes,1 ounce,5,0,1,0,0,0.0,0.0,2025-11-19
-Red Pepper Sticks,1/2 cup,20,0,4,0,3,0.0,0.0,2025-11-19
-Chopped Spinach,1/4 cup,0,0,0,0,0,0.0,0.0,2025-11-19
-Grated Parmesan Cheese,1 tsp,10,0,0,0,0,0.0,0.0,2025-11-19
-Crushed Red Pepper,1/8 tsp,0,0,0,0,0,0.0,0.0,2025-11-19
-Dried Oregano,1 tsp,0,0,0,0,0,0.0,0.0,2025-11-19
-Chopped Romaine Lettuce,1 cup,10,0,2,0,0,0.0,0.0,2025-11-19
-Baby Spinach,1/4 cup,0,0,0,0,0,0.0,0.0,2025-11-19
-Shredded Carrots,1/4 cup,10,0,3,0,1,0.0,0.0,2025-11-19
-Sliced Cucumber,1/4 cup,0,0,0,0,0,0.0,0.0,2025-11-19
-Grape Tomatoes,1/4 cup,5,0,1,0,0,0.0,0.0,2025-11-19
-Sliced Red Onion,1/4 cup,10,0,3,0,1,0.0,0.0,2025-11-19
-Pickled Beets,1/2 cup,25,0,5,0,0,0.0,0.0,2025-11-19
-Sliced Green Bell Pepper,1/4 cup,0,0,1,0,0,0.0,0.0,2025-11-19
-Sliced Black Olives,1/4 cup,40,0,2,4,0,0.0,0.0,2025-11-19
-Dried Cranberries,1 tbsp,30,0,8,0,7,0.0,0.0,2025-11-19
-Homestyle Ranch Dressing,1 floz,100,0,0,11,0,0.0,0.0,2025-11-19
-Balsamic Vinaigrette Dressing,1 floz,60,0,5,5,4,0.0,0.0,2025-11-19
-Dijon Honey Dressing,1 floz,130,0,7,12,6,0.0,0.0,2025-11-19
-French Dressing,1 floz,120,0,5,11,5,0.0,0.0,2025-11-19
-Fat Free Italian Dressing,1 floz,15,0,3,0,2,0.0,0.0,2025-11-19
-Olive Oil,1 floz,240,0,0,27,0,0.0,0.0,2025-11-19
-Red Wine Vinegar,1 floz,5,0,0,0,0,0.0,0.0,2025-11-19
-Crushed Red Pepper,1 tsp,5,0,1,0,0,0.0,0.0,2025-11-19
-Dried Oregano,1 tsp,0,0,0,0,0,0.0,0.0,2025-11-19
-Grated Parmesan Cheese,1 tsp,10,0,0,0,0,0.0,0.0,2025-11-19
-Cubed Pineapple,1/4 cup,20,0,5,0,4,0.0,0.0,2025-11-19
-Cubed Cantaloupe,1/4 cup,15,0,3,0,3,0.0,0.0,2025-11-19
-Cubed Honeydew,1/4 cup,15,0,4,0,3,0.0,0.0,2025-11-19
-Red Grapes,1/2 cup,50,0,14,0,12,0.0,0.0,2025-11-19
-Cream Cheese,1 tbsp,50,0,0,5,0,0.0,0.0,2025-11-19
-Strawberry Jelly Preserves,1 tbsp,50,0,13,0,12,0.0,0.0,2025-11-19
-Grape Jelly,1 tbsp,50,0,13,0,12,0.0,0.0,2025-11-19
-"Crackers, Saltine, 2 CT, Zesta",1 each,25,0,5,0,0,0.0,0.0,2025-11-19
-Mini Lemon Blueberry Cupcake,1 each,120,0,19,4,0,0.0,0.0,2025-11-19
-Sweet and Sour Sauce,1 floz,40,1,8,0,7,0.025,40.0,2025-11-19
-Gluten Free Soy Sauce,1 floz,20,1,4,0,2,0.05,20.0,2025-11-19
-Classic Caesar Dressing,1 floz,150,1,0,16,0,0.007,150.0,2025-11-19
-Low-Fat Blueberry Yogurt,1/4 cup,35,1,7,0,5,0.029,35.0,2025-11-19
-Vegetable Soup,1 ladle-6oz,40,1,9,0,3,0.025,40.0,2025-11-19
-Carnival Cookies,1 each,120,1,18,5,11,0.008,120.0,2025-11-19
-Vegan Southern Green Beans,4 ounce,60,2,13,1,4,0.033,30.0,2025-11-19
-Garlic Cheddar Biscuit,1 each,110,2,13,5,1,0.018,55.0,2025-11-19
-Cucumber-Tomato Raita,1-1/2 floz,20,2,3,0,0,0.1,10.0,2025-11-19
-Mr. Bing Chili Crisp Spicy,1 tbsp,90,2,6,9,0,0.022,45.0,2025-11-19
-Seasoned French Fries,3 ounce,200,2,23,11,0,0.01,100.0,2025-11-19
-Whole Kernel Corn,1/2 cup,80,2,18,2,3,0.025,40.0,2025-11-19
-Roasted Red Pepper Hummus,2 tbsp,70,2,5,0,1,0.029,35.0,2025-11-19
-Pesto Alfredo Sauce,2 floz,120,2,3,11,2,0.017,60.0,2025-11-19
-Marinara Sauce,1 ladle-4oz,70,2,14,0,9,0.029,35.0,2025-11-19
-Garlic Bread,1 slice,100,2,16,0,0,0.02,50.0,2025-11-19
-Shredded Cheddar Cheese,1 tbsp,30,2,0,0,0,0.067,15.0,2025-11-19
-Blanched Broccoli,1/2 cup,25,2,5,0,1,0.08,12.5,2025-11-19
-Blanched Cauliflower,1/2 cup,25,2,5,0,2,0.08,12.5,2025-11-19
-Cooked Red Quinoa,1/4 cup,60,2,10,1,0,0.033,30.0,2025-11-19
-Croutons,5 each,70,2,15,0,0,0.029,35.0,2025-11-19
-Roasted Sunflower Seeds,1 tbsp,45,2,2,4,0,0.044,22.5,2025-11-19
-strawberry cream cheese,2 tbsp,110,2,5,10,4,0.018,55.0,2025-11-19
-Chive Cream Cheese,1 ounce,90,2,2,9,1,0.022,45.0,2025-11-19
-Classic Snickerdoodle Cookies,1 each,130,2,22,4,10,0.015,65.0,2025-11-19
-Jasmine Rice,4 ounce,180,3,32,0,0,0.017,60.0,2025-11-19
-Sliced American Cheese,1/2 ounce,50,3,0,0,0,0.06,16.667,2025-11-19
-American Cheese Slice,1 slice,50,3,0,0,0,0.06,16.667,2025-11-19
-Cheddar Cheese Slice,1 slice,60,3,0,0,0,0.05,20.0,2025-11-19
-Whole Wheat Penne Pasta,1/2 cup,80,3,15,1,0,0.037,26.667,2025-11-19
-Coconut Rice,1/2 cup,280,4,46,9,0,0.014,70.0,2025-11-19
-Rotini Pasta,1/2 cup,110,4,21,0,0,0.036,27.5,2025-11-19
-Italian Sausage Crumbles,1/4 cup,70,4,0,5,0,0.057,17.5,2025-11-19
-Herb Roasted Mushrooms,1/2 cup,70,4,4,5,0,0.057,17.5,2025-11-19
-Chickpea Cucumber Sumac Salad,1/2 cup,120,4,14,6,0,0.033,30.0,2025-11-19
-"Peanut Butter, .75 oz, Jif",1 each,120,4,5,10,2,0.033,30.0,2025-11-19
-Jasmine Rice,1 cup,300,5,55,6,0,0.017,60.0,2025-11-19
-Kidney Bean Curry,1 cup,150,5,17,7,0,0.033,30.0,2025-11-19
-White Bread,2 slice,150,5,29,0,2,0.033,30.0,2025-11-19
-Sliced American Swiss Cheese,1 slice,100,5,1,9,0,0.05,20.0,2025-11-19
-Diced Ham,1/4 cup,45,5,2,0,0,0.111,9.0,2025-11-19
-Cubed Tofu,1/4 cup,50,5,1,3,0,0.1,10.0,2025-11-19
-Cannellini Bean Salad,4 ounce,160,5,22,6,8,0.031,32.0,2025-11-19
-American Macaroni Salad,3/4 cup,180,5,27,6,2,0.028,36.0,2025-11-19
-Hard Boiled Egg,1 each,70,6,0,0,0,0.086,11.667,2025-11-19
-Vanilla Iced Monkey Bread,1 each,590,6,82,27,53,0.01,98.333,2025-11-19
-Lemon Orzo Chicken Soup,8 floz,160,7,14,8,2,0.044,22.857,2025-11-19
-"12"" Flour Tortilla",1 each,290,8,48,8,1,0.028,36.25,2025-11-19
-Multigrain Bread,2 slice,280,8,52,4,8,0.029,35.0,2025-11-19
-Whole Wheat Bread,2 slice,140,8,26,1,0,0.057,17.5,2025-11-19
-Herb Marinated Black Beans,1/2 cup,130,8,22,2,0,0.062,16.25,2025-11-19
-Cheese Pizza,1 slice,200,8,29,5,2,0.04,25.0,2025-11-19
-Pepperoni Pizza,1 slice,210,9,29,7,0,0.043,23.333,2025-11-19
-Meatless Garden Burger,1 each,100,10,15,0,0,0.1,10.0,2025-11-19
-Grilled Veggie Pizza,1 slice,220,10,34,5,3,0.045,22.0,2025-11-19
-Thai Tofu,4 ounce,160,11,3,12,0,0.069,14.545,2025-11-19
-Thinly Sliced Deli Turkey Breast,3 ounce,90,11,3,0,0,0.122,8.182,2025-11-19
-2% Greek Plain Yogurt,1/2 cup,90,11,5,0,5,0.122,8.182,2025-11-19
-Impossible and Barley Dirty Rice,1/2 cup,240,13,30,8,2,0.054,18.462,2025-11-19
-Cottage Cheese,1/2 cup,80,14,3,1,3,0.175,5.714,2025-11-19
-Thinly Sliced Smoked Ham,3 ounce,110,15,1,0,1,0.136,7.333,2025-11-19
-FIT Tuna Salad,1/2 cup,100,17,2,0,0,0.17,5.882,2025-11-19
-Grilled Chicken Thigh,3 ounce,170,20,0,9,0,0.118,8.5,2025-11-19
-Thai Turkey Meatballs,4 ounce,210,22,0,13,0,0.105,9.545,2025-11-19
-Asian BBQ Glazed Pork,4 ounce,190,22,7,7,0,0.116,8.636,2025-11-19
-Chicken and Dumplings,8 oz portion,440,28,35,20,0,0.064,15.714,2025-11-19
-Philly Cheese Steak,1 sandwich,430,35,38,14,2,0.081,12.286,2025-11-19
-Buffalo Chicken Stromboli,1 piece,1050,75,103,37,6,0.071,14.0,2025-11-19
+Tamarind Chutney,1 floz,70,0,17,0,15,0.0,0.0,2026-04-30
+Indian Spiced Corn Salad,2 oz portion,20,0,5,0,2,0.0,0.0,2026-04-30
+Julienne Yellow Bell Peppers,1/4 cup,10,0,2,0,0,0.0,0.0,2026-04-30
+Sliced Green Bell Pepper,1/4 cup,0,0,1,0,0,0.0,0.0,2026-04-30
+Baby Spinach,1/4 cup,0,0,0,0,0,0.0,0.0,2026-04-30
+Lettuce Leaf,1 each,0,0,0,0,0,0.0,0.0,2026-04-30
+Sliced Tomatoes,1 slice,0,0,0,0,0,0.0,0.0,2026-04-30
+Sliced Red Onion,1/4 cup,10,0,3,0,1,0.0,0.0,2026-04-30
+Dill Pickle Slices,4 each,0,0,0,0,0,0.0,0.0,2026-04-30
+Dill Pickle Slices,2 each,0,0,0,0,0,0.0,0.0,2026-04-30
+Lettuce Leaf,1 each,0,0,0,0,0,0.0,0.0,2026-04-30
+Sliced Tomatoes,2 slice,0,0,1,0,0,0.0,0.0,2026-04-30
+Sliced Red Onion,1 slice,5,0,1,0,0,0.0,0.0,2026-04-30
+Chipotle Mayo,1 tbsp,60,0,2,6,0,0.0,0.0,2026-04-30
+Pesto Mayo,1 oz portion,180,0,0,20,0,0.0,0.0,2026-04-30
+Horseradish Mayo,2 tbsp,110,0,3,11,0,0.0,0.0,2026-04-30
+Diced Onions,1/4 cup,15,0,4,0,2,0.0,0.0,2026-04-30
+Diced Tomatoes,1 ounce,5,0,1,0,0,0.0,0.0,2026-04-30
+Chopped Spinach,1/4 cup,0,0,0,0,0,0.0,0.0,2026-04-30
+Grated Parmesan Cheese,1 tsp,10,0,0,0,0,0.0,0.0,2026-04-30
+Crushed Red Pepper,1/8 tsp,0,0,0,0,0,0.0,0.0,2026-04-30
+Dried Oregano,1 tsp,0,0,0,0,0,0.0,0.0,2026-04-30
+Chopped Romaine Lettuce,1 cup,10,0,2,0,0,0.0,0.0,2026-04-30
+Baby Spinach,1 cup,5,0,1,0,0,0.0,0.0,2026-04-30
+Shredded Carrots,1/4 cup,10,0,3,0,1,0.0,0.0,2026-04-30
+Sliced Cucumber,1/4 cup,0,0,0,0,0,0.0,0.0,2026-04-30
+Grape Tomatoes,1/4 cup,5,0,1,0,0,0.0,0.0,2026-04-30
+Sliced Red Onion,1/4 cup,10,0,3,0,1,0.0,0.0,2026-04-30
+Pickled Beets,1/4 cup,10,0,3,0,2,0.0,0.0,2026-04-30
+Sliced Green Bell Pepper,1/4 cup,0,0,1,0,0,0.0,0.0,2026-04-30
+Sliced Black Olives,1/4 cup,40,0,2,4,0,0.0,0.0,2026-04-30
+Dried Cranberries,1 tbsp,30,0,8,0,7,0.0,0.0,2026-04-30
+Homestyle Ranch Dressing,1 floz,100,0,0,11,0,0.0,0.0,2026-04-30
+Balsamic Vinaigrette Dressing,1 floz,60,0,5,5,4,0.0,0.0,2026-04-30
+Dijon Honey Dressing,1 floz,130,0,7,12,6,0.0,0.0,2026-04-30
+French Dressing,1 floz,120,0,5,11,5,0.0,0.0,2026-04-30
+Fat Free Italian Dressing,1 floz,15,0,3,0,2,0.0,0.0,2026-04-30
+Olive Oil,1 floz,240,0,0,27,0,0.0,0.0,2026-04-30
+Red Wine Vinegar,1 floz,5,0,0,0,0,0.0,0.0,2026-04-30
+Crushed Red Pepper,1 tsp,5,0,1,0,0,0.0,0.0,2026-04-30
+Dried Oregano,1 tsp,0,0,0,0,0,0.0,0.0,2026-04-30
+Grated Parmesan Cheese,1 tsp,10,0,0,0,0,0.0,0.0,2026-04-30
+Vegetable Garden Salad,1/2 cup,30,0,3,2,2,0.0,0.0,2026-04-30
+Cubed Pineapple,1/4 cup,20,0,5,0,4,0.0,0.0,2026-04-30
+Cubed Cantaloupe,1/4 cup,15,0,3,0,3,0.0,0.0,2026-04-30
+Cubed Honeydew,1/4 cup,15,0,4,0,3,0.0,0.0,2026-04-30
+Red Grapes,1/4 cup,25,0,7,0,6,0.0,0.0,2026-04-30
+Cream Cheese,1 tbsp,50,0,0,5,0,0.0,0.0,2026-04-30
+Strawberry Jelly Preserves,1 tbsp,50,0,13,0,12,0.0,0.0,2026-04-30
+Grape Jelly,1 tbsp,50,0,13,0,12,0.0,0.0,2026-04-30
+"Crackers, Saltine, 2 CT, Zesta",1 each,25,0,5,0,0,0.0,0.0,2026-04-30
+Trix Cereal Bar,"1 2"" x 3""",200,0,36,6,20,0.0,0.0,2026-04-30
+Tzatziki Sauce,1 floz,50,1,2,4,1,0.02,50.0,2026-04-30
+Hummus,1 tbsp,35,1,2,3,0,0.029,35.0,2026-04-30
+French Fries,3 ounce,150,1,18,9,0,0.007,150.0,2026-04-30
+Hummus,1 tbsp,35,1,2,3,0,0.029,35.0,2026-04-30
+Classic Caesar Dressing,1 floz,150,1,0,16,0,0.007,150.0,2026-04-30
+Chocolate Chip Cookies,1 each,130,1,17,6,10,0.008,130.0,2026-04-30
+Sugar Cookie,1 each,110,1,15,5,7,0.009,110.0,2026-04-30
+"Sweet Chili Kale, Napa Cabbage, and Broccoli",4 oz portion,50,2,12,0,7,0.04,25.0,2026-04-30
+Avoiding Gluten Barilla Penne,3/4 cup,100,2,23,0,0,0.02,50.0,2026-04-30
+Roasted Broccoli,1/2 cup,40,2,5,2,1,0.05,20.0,2026-04-30
+Basmati Rice,4 ounce,120,2,27,0,0,0.017,60.0,2026-04-30
+Marinara Sauce,1 ladle-4oz,70,2,14,0,9,0.029,35.0,2026-04-30
+Herb Roasted Mushrooms,1/3 cup,45,2,3,3,2,0.044,22.5,2026-04-30
+Shredded Cheddar Cheese,1 tbsp,30,2,0,2,0,0.067,15.0,2026-04-30
+Blanched Broccoli,1/2 cup,25,2,5,0,1,0.08,12.5,2026-04-30
+Blanched Cauliflower,1/2 cup,25,2,5,0,2,0.08,12.5,2026-04-30
+Cooked Red Quinoa,1/4 cup,60,2,10,1,0,0.033,30.0,2026-04-30
+Croutons,5 each,70,2,15,0,0,0.029,35.0,2026-04-30
+Roasted Sunflower Seeds,1 tbsp,45,2,2,4,0,0.044,22.5,2026-04-30
+Low Fat Strawberry Yogurt,1/2 cup,70,2,15,0,10,0.029,35.0,2026-04-30
+Banana Bread,1 slice,170,2,28,6,17,0.012,85.0,2026-04-30
+Sliced American Cheese,1/2 ounce,50,3,0,4,0,0.06,16.667,2026-04-30
+American Cheese Slice,1 slice,50,3,0,4,0,0.06,16.667,2026-04-30
+Cheddar Cheese Slice,1 slice,60,3,0,4,0,0.05,20.0,2026-04-30
+Chocolate Frosted Cake,1 1/16th,400,3,65,14,48,0.007,133.333,2026-04-30
+Chana Masala,4 oz portion,90,4,13,3,3,0.044,22.5,2026-04-30
+Lamb and Beef Gyro Meat,1 ounce,110,4,2,10,0,0.036,27.5,2026-04-30
+Whole Wheat Pita Bread,1 each,80,4,15,0,0,0.05,20.0,2026-04-30
+Alfredo Sauce,1 ladle-2oz,70,4,5,4,3,0.057,17.5,2026-04-30
+Herb Marinated Black Beans,1/4 cup,70,4,11,1,0,0.057,17.5,2026-04-30
+"Peanut Butter, .75 oz, Jif",1 each,120,4,5,10,2,0.033,30.0,2026-04-30
+White Bread,2 slice,150,5,29,1,2,0.033,30.0,2026-04-30
+Sliced American Swiss Cheese,1 slice,100,5,1,9,0,0.05,20.0,2026-04-30
+Penne Pasta,1/2 cup,100,5,19,1,0,0.05,20.0,2026-04-30
+Diced Ham,1/4 cup,45,5,2,1,0,0.111,9.0,2026-04-30
+Diced Ham,1/4 cup,45,5,2,1,0,0.111,9.0,2026-04-30
+Cubed Tofu,1/4 cup,50,5,1,3,0,0.1,10.0,2026-04-30
+Roasted Sweet Potato and Farro Salad,4 oz portion,220,5,31,9,5,0.023,44.0,2026-04-30
+Pesto Pasta Salad,1/2 cup,150,5,15,8,1,0.033,30.0,2026-04-30
+Broccoli Cheddar Soup,8 floz,220,5,14,17,2,0.023,44.0,2026-04-30
+Pumpkin Pie,1 1/8th,360,5,57,14,25,0.014,72.0,2026-04-30
+Berry Pound Cake Trifle,9 ounce,610,5,56,42,37,0.008,122.0,2026-04-30
+Steamed Rice,1 cup,280,6,61,1,0,0.021,46.667,2026-04-30
+Whole Wheat Penne Pasta,1 cup,160,6,30,2,0,0.037,26.667,2026-04-30
+Hard Boiled Egg,1 each,70,6,0,4,0,0.086,11.667,2026-04-30
+Gochujang Tofu Vegetable Stir Fry,6 ounce,320,7,15,28,8,0.022,45.714,2026-04-30
+Brioche Bun,1 each,240,7,41,5,8,0.029,34.286,2026-04-30
+Lemon Orzo Chicken Soup,8 floz,160,7,14,8,2,0.044,22.857,2026-04-30
+"12"" Flour Tortilla",1 each,290,8,48,8,1,0.028,36.25,2026-04-30
+Multigrain Bread,2 slice,280,8,52,4,8,0.029,35.0,2026-04-30
+Whole Wheat Bread,2 slice,140,8,26,1,0,0.057,17.5,2026-04-30
+Cheese Pizza,1 slice,200,8,29,5,2,0.04,25.0,2026-04-30
+Pepperoni Spiced Turkey Bolognese,1/2 cup,110,9,9,5,5,0.082,12.222,2026-04-30
+Grilled Tofu,4 ounce,90,9,2,5,0,0.1,10.0,2026-04-30
+Pepperoni Pizza,1 slice,210,9,29,7,2,0.043,23.333,2026-04-30
+Meatless Garden Burger,1 each,100,10,15,1,0,0.1,10.0,2026-04-30
+Grilled Veggie Pizza,1 slice,220,10,34,5,3,0.045,22.0,2026-04-30
+Chicken Potsticker,5 piece,190,11,26,4,2,0.058,17.273,2026-04-30
+Thinly Sliced Deli Turkey Breast,3 ounce,90,11,3,3,0,0.122,8.182,2026-04-30
+2% Greek Plain Yogurt,1/2 cup,90,11,5,2,5,0.122,8.182,2026-04-30
+Cottage Cheese,1/2 cup,80,14,3,1,3,0.175,5.714,2026-04-30
+Thinly Sliced Smoked Ham,3 ounce,110,15,1,4,1,0.136,7.333,2026-04-30
+FIT Tuna Salad,1/2 cup,100,17,2,3,0,0.17,5.882,2026-04-30
+Chicken Pesto Stromboli,1 slice,290,17,31,11,3,0.059,17.059,2026-04-30
+Chili Cheese Dog,1 sandwich,590,21,40,39,7,0.036,28.095,2026-04-30
+Beef Broccoli Stir Fry,1 serving(s),390,35,35,11,4,0.09,11.143,2026-04-30
+Curry Braised Beef,6 ounce,480,51,11,25,2,0.106,9.412,2026-04-30
